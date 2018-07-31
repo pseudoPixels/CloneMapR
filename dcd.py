@@ -5,6 +5,11 @@ import pandas as pd
 
 
 
+#pyspark imports
+from pyspark.sql import SparkSession
+from pyspark.context import SparkContext
+from pyspark import SparkConf
+from pyspark.sql import SQLContext
 
 
 
@@ -12,22 +17,9 @@ import pandas as pd
 
 
 
-
-
-potential_clones = 'Datasource/pc.xml'
-
-
-
-
-
-
-
-
-
-
-
-
-def convertAndSaveAsCSV(inputPath, destinationPath):
+#this method takes path for system potential clone file
+#and writes the converted csv to a supplied destination file path
+def convertAndSaveAsCSV(inputPath, destinationPath, saveToFile=True):
 	soup = ''
 	with open(inputPath) as fp:
 		soup = BeautifulSoup(fp, 'lxml')
@@ -50,9 +42,30 @@ def convertAndSaveAsCSV(inputPath, destinationPath):
 		df = df.append({'filepath': all_potential_clones[i]['file'], 'startline': all_potential_clones[i]['startline'], 'endline': all_potential_clones[i]['endline'], 'sourceCode': src}, ignore_index=True)
 
 
-	df.to_csv(destinationPath, sep=',')
+	if saveToFile == True:	
+		df.to_csv(destinationPath, sep=',')
+
+	return df
 
 
 
 
-convertAndSaveAsCSV(potential_clones,'csvCodes.csv')
+
+
+
+
+
+
+
+potential_clones = 'Datasource/pc.xml'
+output_csv = 'csvCodes.csv'
+df = convertAndSaveAsCSV(potential_clones, output_csv, False)
+
+sc = SparkContext.getOrCreate()
+sqlContext = SQLContext(sc)
+spark_df = sqlContext.createDataFrame(df)
+
+spark_df.show()
+print spark_df.count()
+
+
