@@ -57,15 +57,24 @@ def convertAndSaveAsCSV(inputPath, destinationPath, saveToFile=True):
 
 
 
+
+
+
+
+
+
+
 potential_clones = 'Datasource/pc.xml'
 output_csv = 'csvCodes.csv'
 df = convertAndSaveAsCSV(potential_clones, output_csv, False)
 
+
+#spark context
 sc = SparkContext.getOrCreate()
 sqlContext = SQLContext(sc)
 spark_df = sqlContext.createDataFrame(df)
 
 spark_df.show()
-print spark_df.count()
+#print spark_df.count()
 
 
