@@ -3,6 +3,8 @@ import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
 import pandas as pd
 
+import subprocess
+
 
 
 #pyspark imports
@@ -10,6 +12,16 @@ from pyspark.sql import SparkSession
 from pyspark.context import SparkContext
 from pyspark import SparkConf
 from pyspark.sql import SQLContext
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -51,6 +63,25 @@ def convertAndSaveAsCSV(inputPath, destinationPath, saveToFile=True):
 
 
 
+def distributedSourceTransform(row):
+	with open('tmp', "w") as fo:
+		fo.write(row.sourceCode)
+
+	p = subprocess.Popen(['/usr/local/bin/txl', '-Dapply', 'txl_features/java/normalizeLiteralsToDefault.txl', 'tmp'],
+						 stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+	out, err = p.communicate()
+
+	return (row.filepath, row.startline, row.endline, out)
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -74,7 +105,51 @@ sc = SparkContext.getOrCreate()
 sqlContext = SQLContext(sc)
 spark_df = sqlContext.createDataFrame(df)
 
-spark_df.show()
+
+
+
+
+
+
+transformed_spark_df = spark_df.rdd.map(distributedSourceTransform)
+
+
+
+
+
+
+print transformed_spark_df.take(5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#spark_df.show()
 #print spark_df.count()
 
 

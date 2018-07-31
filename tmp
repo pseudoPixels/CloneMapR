@@ -1,0 +1,1 @@
+ public void newWindow (Drawing initialDrawing) {     DrawApplication window = createApplication ();     if (expression) {         window.open ();     } else {         window.open (window.createDrawingView (initialDrawing));     } } 
