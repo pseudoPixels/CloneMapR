@@ -52,32 +52,32 @@ def distributedSourceTransform(row):
     return (row.filepath, row.startline, row.endline, out)
 
 
-potential_clones = 'Datasource/pc.xml'
-output_csv = 'csvCodes.csv'
-df = convertAndSaveAsCSV(potential_clones, output_csv, False)
-
-# spark context
-sc = SparkContext.getOrCreate()
-sqlContext = SQLContext(sc)
-spark_df = sqlContext.createDataFrame(df)
-
-transformed_spark_df = spark_df.rdd.map(distributedSourceTransform)
-
-print transformed_spark_df.take(5)
+# potential_clones = 'Datasource/pc.xml'
+# output_csv = 'csvCodes.csv'
+# df = convertAndSaveAsCSV(potential_clones, output_csv, False)
+#
+# # spark context
+# sc = SparkContext.getOrCreate()
+# sqlContext = SQLContext(sc)
+# spark_df = sqlContext.createDataFrame(df)
+#
+# transformed_spark_df = spark_df.rdd.map(distributedSourceTransform)
+#
+# print transformed_spark_df.take(5)
 
 
 
 
 def txlTest():
-    p = subprocess.Popen(['/usr/local/bin/txl', '-Dapply', 'txl_features/java/normalizeLiteralsToDefault.txl', 'tmp'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    p = subprocess.Popen(['/usr/local/bin/txl', '/home/gom766/Documents/My_Research_Projects/dcd/NiCad-4.0/txl/java-rename-blind-functions.txl', 'tmp2'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     out, err = p.communicate()
 
-    return out
+    return err
 
 
 
 
-#print txlTest()
+print txlTest()
 
 
 

@@ -1,1 +1,1 @@
- public void newWindow (Drawing initialDrawing) {     DrawApplication window = createApplication ();     if (expression) {         window.open ();     } else {         window.open (window.createDrawingView (initialDrawing));     } } 
+<source file="/home/ubuntu/Webpage/app_collaborative_sci_workflow/workflow_outputs/test_workflow/JHotDraw54b1/src/CH/ifa/draw/application/DrawApplication.java" startline="89" endline="91">  public DrawApplication () {     this ("JHotDraw"); }  </source>

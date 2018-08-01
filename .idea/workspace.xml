@@ -2,165 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ec4411d-b651-47ca-b7a7-9fc719e0f9e1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/c/BlindRenameFragment.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/c/CFragmentGrammar.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/c/PrettyPrint.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/c/PrettyPrintFragment.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/c/ctokens.grm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/c/isblock.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/c/isfunction.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/c/removecomments.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/c/spacer.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/c/tmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/c/token_stream.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/c/tokenize.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/cs/BlindRenameFragment.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/cs/CSFragmentGrammar.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/cs/PrettyPrint.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/cs/PrettyPrintFragment.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/cs/bom.grm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/cs/cstokens.grm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/cs/isblock.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/cs/isfunction.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/cs/removecomments.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/cs/spacer.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/cs/token_stream.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/cs/tokenize.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/java/BlindRenameFragment.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/java/JavaFragmentGrammar.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/java/PrettyPrint.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/java/PrettyPrintFragment.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/java/PyDictionaryDerived.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/java/blindNormalizeLiterals.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/java/blindRenameIdentifiers.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/java/blindRenameIdentifiersAndPrimitives.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/java/blindRenamePrimitives.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/java/bom.grm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/java/consistentNormalizeLiterals.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/java/consistentRenameIdentifiers.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/java/isblock.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/java/isfunction.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/java/java.grm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/java/jtokens.grm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/java/normalizeLiteralsToDefault.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/java/normalizeLiteralsToZero.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/java/removecomments.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/java/spacer.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/java/token_stream.txl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/txl_features/java/tokenize.txl" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/.csblocks.txl.swp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/c-abstract-blocks.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/c-abstract-blocks.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/c-abstract-functions.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/c-abstract-functions.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/c-extract-blocks.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/c-extract-blocks.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/c-extract-functions.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/c-extract-functions.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/c-filter-blocks.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/c-filter-blocks.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/c-filter-functions.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/c-filter-functions.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/c-rename-blind-blocks.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/c-rename-blind-blocks.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/c-rename-blind-functions.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/c-rename-blind-functions.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/c-rename-consistent-blocks.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/c-rename-consistent-blocks.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/c-rename-consistent-functions.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/c-rename-consistent-functions.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/c.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/c.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/cs-abstract-blocks.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/cs-abstract-blocks.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/cs-abstract-functions.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/cs-abstract-functions.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/cs-extract-blocks.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/cs-extract-blocks.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/cs-extract-functions.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/cs-extract-functions.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/cs-filter-blocks.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/cs-filter-blocks.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/cs-filter-functions.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/cs-filter-functions.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/cs-rename-blind-blocks.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/cs-rename-blind-blocks.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/cs-rename-blind-functions.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/cs-rename-blind-functions.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/cs-rename-consistent-blocks.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/cs-rename-consistent-blocks.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/cs-rename-consistent-functions.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/cs-rename-consistent-functions.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/cs.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/cs.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/generic-abstract.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/generic-filter.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/generic-normalize.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/generic-rename-blind.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/generic-rename-consistent.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/getoriginal.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/getoriginal.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/ifdef.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/ifdef.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/java-abstract-blocks.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/java-abstract-blocks.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/java-abstract-functions.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/java-abstract-functions.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/java-extract-blocks.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/java-extract-blocks.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/java-extract-functions.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/java-extract-functions.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/java-filter-blocks.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/java-filter-blocks.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/java-filter-functions.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/java-filter-functions.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/java-normalize-ifconditions-functions.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/java-normalize-ifconditions-functions.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/java-rename-blind-blocks.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/java-rename-blind-blocks.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/java-rename-blind-functions.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/java-rename-blind-functions.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/java-rename-consistent-blocks.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/java-rename-consistent-blocks.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/java-rename-consistent-functions.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/java-rename-consistent-functions.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/java.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/java.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/py-abstract-blocks.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/py-abstract-blocks.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/py-abstract-functions.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/py-abstract-functions.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/py-extract-blocks.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/py-extract-blocks.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/py-extract-functions.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/py-extract-functions.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/py-filter-blocks.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/py-filter-blocks.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/py-filter-functions.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/py-filter-functions.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/py-rename-blind-blocks.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/py-rename-blind-blocks.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/py-rename-blind-functions.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/py-rename-blind-functions.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/py-rename-consistent-blocks.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/py-rename-consistent-blocks.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/py-rename-consistent-functions.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/py-rename-consistent-functions.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/py.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/py.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/pyindent.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/pyindent.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/python.grm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/wsdl-extract-functions.txl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/wsdl-extract-functions.x" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/txl/wsdl.grm" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/txl/bom.grm" afterPath="$PROJECT_DIR$/txl_features/c/bom.grm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/txl/c.grm" afterPath="$PROJECT_DIR$/txl_features/c/c.grm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/txl/csharp.grm" afterPath="$PROJECT_DIR$/txl_features/cs/csharp.grm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/txl/java.grm" afterPath="$PROJECT_DIR$/txl_features/java/java_alt.grm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp2" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dcd.py" afterPath="$PROJECT_DIR$/dcd.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
     </list>
     <ignored path="dcd.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -183,8 +29,8 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="51" selection-end-column="58" />
+            <state relative-caret-position="660">
+              <caret line="46" column="31" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="31" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -192,11 +38,41 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="java-rename-blind-functions.txl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NiCad-4.0/txl/java-rename-blind-functions.txl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generic-normalize.txl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NiCad-4.0/txl/generic-normalize.txl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pc2.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Datasource/pc2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="dcd.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dcd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+            <state relative-caret-position="705">
+              <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -208,7 +84,17 @@
         <entry file="file://$PROJECT_DIR$/tmp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="233" selection-start-line="0" selection-start-column="233" selection-end-line="0" selection-end-column="233" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tmp2" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tmp2">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -240,6 +126,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/tmp" />
+        <option value="$PROJECT_DIR$/tmp2" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/dcd.py" />
       </list>
@@ -258,7 +145,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -294,6 +181,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dcd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dcd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NiCad-4.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -306,6 +207,8 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/txl" />
+      <recent name="$PROJECT_DIR$/Datasource" />
     </key>
   </component>
   <component name="RunManager">
@@ -504,28 +407,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp">
+    <entry file="file://$PROJECT_DIR$/txl/java.grm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NiCad-4.0/txl/java-rename-blind-functions.txl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="233" selection-start-line="0" selection-start-column="233" selection-end-line="0" selection-end-column="233" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NiCad-4.0/txl/generic-normalize.txl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="51" selection-end-column="58" />
+        <state relative-caret-position="660">
+          <caret line="46" column="31" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="31" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Datasource/pc2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dcd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+        <state relative-caret-position="705">
+          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

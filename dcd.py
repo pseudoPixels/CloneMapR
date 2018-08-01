@@ -64,10 +64,16 @@ def convertAndSaveAsCSV(inputPath, destinationPath, saveToFile=True):
 
 
 def distributedSourceTransform(row):
-	with open('tmp', "w") as fo:
-		fo.write(row.sourceCode)
+	#the txl transformation grammar follows the following format...
+	formatted_potential_clones = '<source file="' + row.filepath +  '" startline="' + row.startline +'" endline="'+ row.endline + '"> ' + row.sourceCode + ' </source>'
 
-	p = subprocess.Popen(['/usr/local/bin/txl', '-Dapply', 'txl_features/java/normalizeLiteralsToDefault.txl', 'tmp'],
+	#write to a temporary file to be used by the txl parser
+	with open('tmp', "w") as fo:
+		fo.write(formatted_potential_clones)
+
+
+	#the required txl transformations...
+	p = subprocess.Popen(['/usr/local/bin/txl', '-Dapply', 'NiCad-4.0/txl/java-rename-blind-functions.txl', 'tmp'],
 						 stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 	out, err = p.communicate()
 
@@ -118,7 +124,7 @@ transformed_spark_df = spark_df.rdd.map(distributedSourceTransform)
 
 
 
-print transformed_spark_df.take(5)
+print transformed_spark_df.take(1)
 
 
 
