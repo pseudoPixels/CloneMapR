@@ -30,8 +30,8 @@ from pyspark.sql import SQLContext
 
 
 #this method takes path for system potential clone file
-#and writes the converted csv to a supplied destination file path
-def convertAndSaveAsCSV(inputPath, destinationPath, saveToFile=True):
+#and returns converted csv file to be used by pyspark csv api
+def convertAndSaveAsCSV(inputPath):
 	soup = ''
 	with open(inputPath) as fp:
 		soup = BeautifulSoup(fp, 'lxml')
@@ -54,15 +54,14 @@ def convertAndSaveAsCSV(inputPath, destinationPath, saveToFile=True):
 		df = df.append({'filepath': all_potential_clones[i]['file'], 'startline': all_potential_clones[i]['startline'], 'endline': all_potential_clones[i]['endline'], 'sourceCode': src}, ignore_index=True)
 
 
-	if saveToFile == True:	
-		df.to_csv(destinationPath, sep=',')
 
 	return df
 
 
 
 
-
+#this method applies required transformation on the potential clones using txl
+#uses pyspark dataframe for distributed computation.
 def distributedSourceTransform(row):
 	#the txl transformation grammar follows the following format...
 	formatted_potential_clones = '<source file="' + row.filepath +  '" startline="' + row.startline +'" endline="'+ row.endline + '"> ' + row.sourceCode + ' </source>'
@@ -100,23 +99,25 @@ def distributedSourceTransform(row):
 
 
 
-
+#the system file path to detect clone on
 potential_clones = 'Datasource/pc.xml'
-output_csv = 'csvCodes.csv'
-df = convertAndSaveAsCSV(potential_clones, output_csv, False)
+
+#loading the potential clones to pandas dataframe
+df = convertAndSaveAsCSV(potential_clones)
 
 
-#spark context
+#get or create spark context
 sc = SparkContext.getOrCreate()
 sqlContext = SQLContext(sc)
+
+
+#convert the pandas dataframe to pyspark dataframe
 spark_df = sqlContext.createDataFrame(df)
 
 
 
-
-
-
-
+#apply required transformations (as set by user) on the potential clones prior to
+#applying near miss clone detection
 transformed_spark_df = spark_df.rdd.map(distributedSourceTransform)
 
 
