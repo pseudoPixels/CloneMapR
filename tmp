@@ -1,1 +1,0 @@
-<source file="/home/ubuntu/Webpage/app_collaborative_sci_workflow/workflow_outputs/test_workflow/JHotDraw54b1/src/CH/ifa/draw/framework/FigureAttributeConstant.java" startline="66" endline="68">  public FigureAttributeConstant (String newName) {     this (newName, attributeConstants.length + 1); }  </source>

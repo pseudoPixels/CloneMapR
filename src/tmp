@@ -1,0 +1,1 @@
+<source file="/home/ubuntu/Webpage/app_collaborative_sci_workflow/workflow_outputs/test_workflow/JHotDraw54b1/src/CH/ifa/draw/contrib/CTXWindowMenu.java" startline="127" endline="132">  protected void removeWindowsList () {     while (this.getItemCount () > staticItems) {         remove (staticItems);     } }  </source>
