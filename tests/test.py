@@ -52,7 +52,7 @@ def distributedSourceTransform(row):
     return (row.filepath, row.startline, row.endline, out)
 
 
-# potential_clones = 'Datasource/pc.xml'
+# potential_clones = 'Datasource/pc2.xml'
 # output_csv = 'csvCodes.csv'
 # df = convertAndSaveAsCSV(potential_clones, output_csv, False)
 #

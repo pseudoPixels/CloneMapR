@@ -118,14 +118,14 @@ spark_df = sqlContext.createDataFrame(df)
 
 #apply required transformations (as set by user) on the potential clones prior to
 #applying near miss clone detection
-transformed_spark_df = spark_df.rdd.map(distributedSourceTransform)
+transformed_spark_rdd = spark_df.rdd.map(distributedSourceTransform)
+
+
+transformed_spark_df = transformed_spark_rdd.cartesian(transformed_spark_rdd)
 
 
 
-
-
-
-print transformed_spark_df.take(1)
+print transformed_spark_df.count()
 
 
 
