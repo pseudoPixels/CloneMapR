@@ -3,6 +3,8 @@ import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
 import pandas as pd
 
+import sys
+
 import subprocess
 
 
@@ -76,7 +78,13 @@ def distributedSourceTransform(row):
 
 
 def main():
-    potential_clones = '../Datasource/pc.xml'
+    potential_clones = sys.argv[1]
+    outDir = sys.argv[2]
+
+
+
+
+    #potential_clones = '../Datasource/pc.xml'
     output_csv = 'csvCodes.csv'
     df = convertAndSaveAsCSV(potential_clones, output_csv, False)
 
@@ -89,7 +97,15 @@ def main():
 
     pysparkdf_transformedClones = transformed_spark_df.toDF()
 
-    pysparkdf_transformedClones.toPandas().to_csv('results.csv')
+    pysparkdf_transformedClones.toPandas().to_csv(outDir + '/' +'results.csv')
+
+    
+
+
+
+
+
+
 
     #pysparkdf_transformedClones.show()
 
