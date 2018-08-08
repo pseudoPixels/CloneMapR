@@ -219,57 +219,165 @@ def distributedSourceTransform(row):
 
 
 
-
-
-db = sqlContext.createDataFrame([
-    (0, "Hello there I really like Spark"),
-    (1, "World there I really "),
-    (2, "Can anyone suggest an efficient algorithm"),
-    (3, "Can anyone suggest an efficient alg"),
-    (4, "Python is a 2000 made-for-TV horror movie directed by Richard"),
-    (5, "Clabaugh. The film features several cult favorite actors, including William"),
-     (6, "Zabka of The Karate Kid fame, Wil Wheaton, Casper Van Dien, Jenny McCarthy,"),
-     (7, "Keith Coogan, Robert Englund (best known for his role as Freddy Krueger in the"),
-     (8, "A Nightmare on Elm Street series of films), Dana Barron, David Bowe, and Sean"),
-     (9, "Whalen. The film concerns a genetically engineered snake, a python, that"),
-     (10, "escapes and unleashes itself on a small town. It includes the classic final"),
-     (11, "girl scenario evident in films like Friday the 13th. It was filmed in Los Angeles,"),
-     (12, "California and Malibu, California. Python was followed by two sequels: Python"),
-     (13, "II (2002) and Boa vs. Python (2004), both also made-for-TV films.")
-    ]).toDF("id","text")
-
-
-
-stackoverflow_df = sqlContext.read.csv("../Datasource/stackOverFlow_ID_Title.csv", header=True)
-
-
-#stack_df = stack_rdd.toDF(['id','text'])
-
-stackoverflow_df.show()
-
-
+#
+#
+# db = sqlContext.createDataFrame([
+#     (0, "Hello there I really like Spark"),
+#     (1, "World there I really "),
+#     (2, "Can anyone suggest an efficient algorithm"),
+#     (3, "Can anyone suggest an efficient alg"),
+#     (4, "Python is a 2000 made-for-TV horror movie directed by Richard"),
+#     (5, "Clabaugh. The film features several cult favorite actors, including William"),
+#      (6, "Zabka of The Karate Kid fame, Wil Wheaton, Casper Van Dien, Jenny McCarthy,"),
+#      (7, "Keith Coogan, Robert Englund (best known for his role as Freddy Krueger in the"),
+#      (8, "A Nightmare on Elm Street series of films), Dana Barron, David Bowe, and Sean"),
+#      (9, "Whalen. The film concerns a genetically engineered snake, a python, that"),
+#      (10, "escapes and unleashes itself on a small town. It includes the classic final"),
+#      (11, "girl scenario evident in films like Friday the 13th. It was filmed in Los Angeles,"),
+#      (12, "California and Malibu, California. Python was followed by two sequels: Python"),
+#      (13, "II (2002) and Boa vs. Python (2004), both also made-for-TV films."),
+#
+#
+#     ]).toDF("id","text")
+#
+#
+#
+#
+# dbStack = sqlContext.createDataFrame([
+#     ("44293378","Background drawable does not work"),
+#     ("44293379","Change variable with button in tkinter"),
+#     ("44293381","disptach action error, value appearing as nested object"),
+#     ("44293382","angular2 - make a variable more variable"),
+#     ("44293383","Formatting XML for Twilio Response"),
+#     ("44293386","How can I filter objects selected w/ jq based on other values?"),
+#     ("44293389","PHP preg_match multiple occurence & multipe uses on same page"),
+#     ("44293390","Ruby list all files within a UNC path via WinRM"),
+#     ("44293404","Illegal Characters in path when grabbing text from a file?"),
+#     ("44293406","MySQL (Get 2 tables in 1 command)"),
+#     ("44293407","How can I check whether a given file is FASTA?"),
+#     ("44293408","Using Roxygen2 for my utility functions"),
+#     ("44293409","Using sed command on remote system"),
+#     ("44293412","Place Snackbar at highest z order to avoid from being blocked by AutoCompleteTextView drop down"),
+#     ("44293414","Unable to Run Hadoop Jar on Cloudera VM")
+#     ]).toDF("id", "text")
+#
+#
+# #dbStack.show()
+#
+#
+#
+# stackoverflow_df = sqlContext.read.csv("../Datasource/stackOverFlow_ID_Title_SMALL.csv", header=True).toDF('id', 'text')
+#
+#
+# #stackoverflow_df.show()
+#
+# #stackoverflow_df.head(10).show()
+#
+#
+# #stack_df = stack_rdd.toDF(['id','text'])
+#
+# #stackoverflow_df.show()
+#
+#
+# #stackoverflow_df.printSchema()
+#
 #
 #
 # model = Pipeline(stages=[
 #     RegexTokenizer(
 #         pattern="", inputCol="text", outputCol="tokens", minTokenLength=1
 #     ),
-#     NGram(n=2, inputCol="tokens", outputCol="ngrams"),
+#     NGram(n=3, inputCol="tokens", outputCol="ngrams"),
 #     HashingTF(inputCol="ngrams", outputCol="vectors"),
 #     MinHashLSH(inputCol="vectors", outputCol="lsh")
-# ]).fit(db)
+# ]).fit(stackoverflow_df)
 #
-# db_hashed = model.transform(db)
+# db_hashed = model.transform(stackoverflow_df)
+#
+# #db_hashed.show()
 # #query_hashed = model.transform(query)
 #
-# db_hashed.show()
+# #db_hashed.show()
 # #query_hashed.show()
 #
-# model.stages[-1].approxSimilarityJoin(db_hashed, db_hashed, 5.0).filter("datasetA.id < datasetB.id").show()
+# res = model.stages[-1].approxSimilarityJoin(db_hashed, db_hashed, 0.90).filter("datasetA.id < datasetB.id")
+#
+# res.show()
+#
+# #print db_hashed.show()
+#
+#
+#
 
 
 
 
+import sys
+
+def main():
+    input_dataset = sys.argv[1]
+    output_dir = sys.argv[2]
+
+
+
+
+    #stackoverflow_df = sqlContext.read.csv("../Datasource/stackOverFlow_ID_Title_SMALL.csv", header=True).toDF('id', 'text')
+
+    stackoverflow_df = sqlContext.read.csv(input_dataset, header=True).toDF('id', 'text')
+
+
+
+
+
+    # stackoverflow_df.show()
+
+    # stackoverflow_df.head(10).show()
+
+
+    # stack_df = stack_rdd.toDF(['id','text'])
+
+    # stackoverflow_df.show()
+
+
+    # stackoverflow_df.printSchema()
+
+
+
+    model = Pipeline(stages=[
+        RegexTokenizer(
+            pattern="", inputCol="text", outputCol="tokens", minTokenLength=1
+        ),
+        NGram(n=3, inputCol="tokens", outputCol="ngrams"),
+        HashingTF(inputCol="ngrams", outputCol="vectors"),
+        MinHashLSH(inputCol="vectors", outputCol="lsh")
+    ]).fit(stackoverflow_df)
+
+    db_hashed = model.transform(stackoverflow_df)
+
+    # db_hashed.show()
+    # query_hashed = model.transform(query)
+
+    # db_hashed.show()
+    # query_hashed.show()
+
+    #res = model.stages[-1].approxSimilarityJoin(db_hashed, db_hashed, 0.90).filter("datasetA.id < datasetB.id")
+
+    res = model.stages[-1].approxSimilarityJoin(db_hashed, db_hashed, 0.90).filter("distCol > 0")
+
+    #print res
+
+    #print res.count()
+
+    res.show()
+
+
+
+    #res.toPandas().to_csv(output_dir + '/' + 'results.csv')
+
+
+
+if __name__ == "__main__":
+	main()
 
 
 
