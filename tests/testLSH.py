@@ -89,84 +89,251 @@ def distributedSourceTransform(row):
 
 
 
-def main():
-    # the system file path to detect clone on
-    potential_clones = '../Datasource/pc2.xml'
-
-    # loading the potential clones to pandas dataframe
-    df = convertAndSaveAsCSV(potential_clones)
-
-
-    #convert the pandas dataframe to pyspark dataframe
-    pysparkdf_potential_clones = sqlContext.createDataFrame(df).toDF("text")
-
-
-
-    pysparkrdd_preprocessed_potential_clones = pysparkdf_potential_clones.rdd.map(distributedSourceTransform)
-
-    pysparkrdd_preprocessed_potential_clones.take(5)
-
-
-
-
-
-    #df2 = convertAndSaveAsCSV('../Datasource/pc.xml')
-
-
-    #convert the pandas dataframe to pyspark dataframe
-    #train_db = sqlContext.createDataFrame(df2).toDF("text")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#convert the pandas dataframe to pyspark dataframe
-#spark_df = sqlContext.createDataFrame(df)
-
-
-# query = sqlContext.createDataFrame(
-#     ["Hello there  real|y like Spark!",
-# "Hello there",
-# "like Spark!",
-# "Hello like Spark!",
-# "AAAAAAA BBBBBB CCCCCC"
-#     ], "string"
-# ).toDF("text")
+# def main():
+#     # the system file path to detect clone on
+#     potential_clones = '../Datasource/pc2.xml'
 #
-# db2 = sqlContext.createDataFrame([
-#     "AAAAAAA BBBBBB CCCCCC",
+#     # loading the potential clones to pandas dataframe
+#     df = convertAndSaveAsCSV(potential_clones)
+#
+#
+#     #convert the pandas dataframe to pyspark dataframe
+#     pysparkdf_potential_clones = sqlContext.createDataFrame(df).toDF("text")
+#
+#
+#
+#     pysparkrdd_preprocessed_potential_clones = pysparkdf_potential_clones.rdd.map(distributedSourceTransform)
+#
+#     pysparkrdd_preprocessed_potential_clones.take(5)
+#
+#
+#
+#
+#
+#     #df2 = convertAndSaveAsCSV('../Datasource/pc.xml')
+#
+#
+#     #convert the pandas dataframe to pyspark dataframe
+#     #train_db = sqlContext.createDataFrame(df2).toDF("text")
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+# #convert the pandas dataframe to pyspark dataframe
+# #spark_df = sqlContext.createDataFrame(df)
+#
+#
+# # query = sqlContext.createDataFrame(
+# #     ["Hello there  real|y like Spark!",
+# # "Hello there",
+# # "like Spark!",
+# # "Hello like Spark!",
+# # "AAAAAAA BBBBBB CCCCCC"
+# #     ], "string"
+# # ).toDF("text")
+# #
+# # db2 = sqlContext.createDataFrame([
+# #     "AAAAAAA BBBBBB CCCCCC",
+# #     "Can anyone suggest an efficient algorithm"
+# # ], "string").toDF("text")
+#
+# #
+# # model = Pipeline(stages=[
+# #     RegexTokenizer(
+# #         pattern="", inputCol="text", outputCol="tokens", minTokenLength=1
+# #     ),
+# #     NGram(n=3, inputCol="tokens", outputCol="ngrams"),
+# #     HashingTF(inputCol="ngrams", outputCol="vectors"),
+# #     MinHashLSH(inputCol="vectors", outputCol="lsh")
+# # ]).fit(test_db)
+# #
+# # db_hashed = model.transform(test_db)
+# # query_hashed = model.transform(train_db)
+# #
+# # model.stages[-1].approxSimilarityJoin(db_hashed, query_hashed, 0.75).show()
+#
+#
+#
+#
+# if __name__ == "__main__":
+# 	main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#
+#
+# db = sqlContext.createDataFrame([
+#     "Hello there I really like Spark",
+#     "World there I really ",
 #     "Can anyone suggest an efficient algorithm"
 # ], "string").toDF("text")
-
+#
 #
 # model = Pipeline(stages=[
 #     RegexTokenizer(
 #         pattern="", inputCol="text", outputCol="tokens", minTokenLength=1
 #     ),
-#     NGram(n=3, inputCol="tokens", outputCol="ngrams"),
+#     NGram(n=2, inputCol="tokens", outputCol="ngrams"),
 #     HashingTF(inputCol="ngrams", outputCol="vectors"),
 #     MinHashLSH(inputCol="vectors", outputCol="lsh")
-# ]).fit(test_db)
+# ]).fit(db)
 #
-# db_hashed = model.transform(test_db)
-# query_hashed = model.transform(train_db)
+# db_hashed = model.transform(db)
+# #query_hashed = model.transform(query)
 #
-# model.stages[-1].approxSimilarityJoin(db_hashed, query_hashed, 0.75).show()
+# db_hashed.show()
+# #query_hashed.show()
+#
+# model.stages[-1].approxSimilarityJoin(db_hashed, db_hashed, 1.0).show()
 
 
 
 
-if __name__ == "__main__":
-	main()
+
+
+
+
+
+
+
+db = sqlContext.createDataFrame([
+    (0, "Hello there I really like Spark"),
+    (1, "World there I really "),
+    (2, "Can anyone suggest an efficient algorithm"),
+    (3, "Can anyone suggest an efficient alg"),
+    (4, "Python is a 2000 made-for-TV horror movie directed by Richard"),
+    (5, "Clabaugh. The film features several cult favorite actors, including William"),
+     (6, "Zabka of The Karate Kid fame, Wil Wheaton, Casper Van Dien, Jenny McCarthy,"),
+     (7, "Keith Coogan, Robert Englund (best known for his role as Freddy Krueger in the"),
+     (8, "A Nightmare on Elm Street series of films), Dana Barron, David Bowe, and Sean"),
+     (9, "Whalen. The film concerns a genetically engineered snake, a python, that"),
+     (10, "escapes and unleashes itself on a small town. It includes the classic final"),
+     (11, "girl scenario evident in films like Friday the 13th. It was filmed in Los Angeles,"),
+     (12, "California and Malibu, California. Python was followed by two sequels: Python"),
+     (13, "II (2002) and Boa vs. Python (2004), both also made-for-TV films.")
+    ]).toDF("id","text")
+
+
+
+stackoverflow_df = sqlContext.read.csv("../Datasource/stackOverFlow_ID_Title.csv", header=True)
+
+
+#stack_df = stack_rdd.toDF(['id','text'])
+
+stackoverflow_df.show()
+
+
+#
+#
+# model = Pipeline(stages=[
+#     RegexTokenizer(
+#         pattern="", inputCol="text", outputCol="tokens", minTokenLength=1
+#     ),
+#     NGram(n=2, inputCol="tokens", outputCol="ngrams"),
+#     HashingTF(inputCol="ngrams", outputCol="vectors"),
+#     MinHashLSH(inputCol="vectors", outputCol="lsh")
+# ]).fit(db)
+#
+# db_hashed = model.transform(db)
+# #query_hashed = model.transform(query)
+#
+# db_hashed.show()
+# #query_hashed.show()
+#
+# model.stages[-1].approxSimilarityJoin(db_hashed, db_hashed, 5.0).filter("datasetA.id < datasetB.id").show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
