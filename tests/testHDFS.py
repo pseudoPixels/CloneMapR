@@ -27,8 +27,10 @@ sqlContext = SQLContext(sc)
 # and returns converted csv file to be used by pyspark csv api
 def convertAndSaveAsCSV(inputPath):
     soup = ''
-    with open(inputPath) as fp:
-        soup = BeautifulSoup(fp, 'lxml')
+    fp = sc.textFile(inputPath)
+    soup = BeautifulSoup(fp, 'lxml')
+    # with open(inputPath) as fp:
+    #     soup = BeautifulSoup(fp, 'lxml')
 
     all_potential_clones = soup.find_all('source')
 
@@ -368,9 +370,9 @@ def main():
 
     #print res.count()
 
-    res.show()
+    #res.show()
 
-
+    res.write.save(output_dir)
 
     #res.toPandas().to_csv(output_dir + '/' + 'results.csv')
 
