@@ -362,7 +362,7 @@ def main():
 
     #res = model.stages[-1].approxSimilarityJoin(db_hashed, db_hashed, 0.90).filter("datasetA.id < datasetB.id")
 
-    res = model.stages[-1].approxSimilarityJoin(db_hashed, db_hashed, 0.90).filter("distCol > 0")
+    res = model.stages[-1].approxSimilarityJoin(db_hashed, db_hashed, 0.70).filter("distCol > 0")
 
     #print res
 
