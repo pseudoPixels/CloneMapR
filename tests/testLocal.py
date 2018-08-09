@@ -313,13 +313,13 @@ def distributedSourceTransform(row):
 
 
 import sys
+import time
 
 def main():
     input_dataset = sys.argv[1]
     output_dir = sys.argv[2]
 
-
-
+    start_time = time.time()
 
     #stackoverflow_df = sqlContext.read.csv("../Datasource/stackOverFlow_ID_Title_SMALL.csv", header=True).toDF('id', 'text')
 
@@ -370,7 +370,9 @@ def main():
 
     res.show()
 
+    elapsed_time = time.time() - start_time
 
+    print 'Elapsed Time ==> ' , elapsed_time
 
     #res.toPandas().to_csv(output_dir + '/' + 'results.csv')
 
