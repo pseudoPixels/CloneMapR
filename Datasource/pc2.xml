@@ -1,35 +1,35 @@
-<source file="/home/ubuntu/Webpage/app_collaborative_sci_workflow/workflow_outputs/test_workflow/JHotDraw54b1/src/CH/ifa/draw/application/DrawApplication.java" startline="89" endline="91">
+<source file="a" startline="89" endline="91">
 public DrawApplication () {
     this ("JHotDraw");
 }
 </source>
-<source file="/home/ubuntu/Webpage/app_collaborative_sci_workflow/workflow_outputs/test_workflow/JHotDraw54b1/src/CH/ifa/draw/application/DrawApplication.java" startline="96" endline="100">
+<source file="b" startline="96" endline="100">
 public DrawApplication (String title) {
     super (title);
     setApplicationName (title);
     winCount ++;
 }
 </source>
-<source file="/home/ubuntu/Webpage/app_collaborative_sci_workflow/workflow_outputs/test_workflow/JHotDraw54b1/src/CH/ifa/draw/application/DrawApplication.java" startline="96" endline="100">
+<source file="c" startline="96" endline="100">
 public DrawApplication (String title) {
     super (title);
     setApplicationName (title);
     winCount ++;
 }
 </source>
-<source file="/home/ubuntu/Webpage/app_collaborative_sci_workflow/workflow_outputs/test_workflow/JHotDraw54b1/src/CH/ifa/draw/application/DrawApplication.java" startline="96" endline="100">
+<source file="d" startline="96" endline="100">
 public DrawApplication (String title) {
     super (title);
     setApplicationName (title);
 
 }
 </source>
-<source file="/home/ubuntu/Webpage/app_collaborative_sci_workflow/workflow_outputs/test_workflow/JHotDraw54b1/src/CH/ifa/draw/application/DrawApplication.java" startline="108" endline="110">
+<source file="e" startline="108" endline="110">
 protected DrawApplication createApplication () {
     return new DrawApplication ();
 }
 </source>
-<source file="/home/ubuntu/Webpage/app_collaborative_sci_workflow/workflow_outputs/test_workflow/JHotDraw54b1/src/CH/ifa/draw/application/DrawApplication.java" startline="116" endline="128">
+<source file="f" startline="116" endline="128">
 public void newView () {
     if (expression) {
         return;
@@ -43,7 +43,7 @@ public void newView () {
     }
 }
 </source>
-<source file="/home/ubuntu/Webpage/app_collaborative_sci_workflow/workflow_outputs/test_workflow/JHotDraw54b1/src/CH/ifa/draw/application/DrawApplication.java" startline="134" endline="142">
+<source file="g" startline="134" endline="142">
 public void newWindow (Drawing initialDrawing) {
     DrawApplication window = createApplication ();
     if (expression) {

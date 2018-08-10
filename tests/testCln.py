@@ -102,7 +102,7 @@ def main():
 
     pysparkdf_transformedClones = transformed_spark_df.toDF(['filepath', 'startline', 'endline', 'source'])
 
-    pysparkdf_transformedClones.show()
+    #pysparkdf_transformedClones.show()
 
 
 
@@ -112,14 +112,14 @@ def main():
         RegexTokenizer(
             pattern=" ", inputCol="source", outputCol="tokens", minTokenLength=1
         ),
-        NGram(n=5, inputCol="tokens", outputCol="ngrams"),
-        HashingTF(inputCol="ngrams", outputCol="vectors", numFeatures=32),
+        NGram(n=3, inputCol="tokens", outputCol="ngrams"),
+        HashingTF(inputCol="ngrams", outputCol="vectors", numFeatures=262144),
         MinHashLSH(inputCol="vectors", outputCol="lsh", numHashTables=5) #MinHashLSH(inputCol="vectors", outputCol="lsh", numHashTables=5)
     ]).fit(pysparkdf_transformedClones)
 
     hashed_clones = model.transform(pysparkdf_transformedClones)
 
-    clone_pairs = model.stages[-1].approxSimilarityJoin(hashed_clones, hashed_clones, 0.50).filter("distCol > 0")
+    clone_pairs = model.stages[-1].approxSimilarityJoin(hashed_clones, hashed_clones, 0.70).filter("distCol > 0")
 
     clone_pairs.show()
 
@@ -136,7 +136,7 @@ def main():
     # hashedLSH.show()
     #
     # hashedLSH.toPandas().to_csv(outDir + '/' +'results2.csv')
-    clone_pairs.toPandas().to_csv(outDir + '/' +'results.csv')
+    #clone_pairs.toPandas().to_csv(outDir + '/' +'results2.csv')
 
 
 
