@@ -104,14 +104,39 @@ def main():
 
     pysparkdf_transformedClones.show()
 
-    tokens = RegexTokenizer(pattern=" ", inputCol="source", outputCol="tokens", minTokenLength=1).transform(pysparkdf_transformedClones)
-
-    ngrams = NGram(n=5, inputCol="tokens", outputCol="ngrams").transform(tokens)
-
-    ngrams.show()
 
 
-    #pysparkdf_transformedClones.toPandas().to_csv(outDir + '/' +'results.csv')
+
+
+    model = Pipeline(stages=[
+        RegexTokenizer(
+            pattern=" ", inputCol="source", outputCol="tokens", minTokenLength=1
+        ),
+        NGram(n=5, inputCol="tokens", outputCol="ngrams"),
+        HashingTF(inputCol="ngrams", outputCol="vectors", numFeatures=32),
+        MinHashLSH(inputCol="vectors", outputCol="lsh", numHashTables=5) #MinHashLSH(inputCol="vectors", outputCol="lsh", numHashTables=5)
+    ]).fit(pysparkdf_transformedClones)
+
+    hashed_clones = model.transform(pysparkdf_transformedClones)
+
+    clone_pairs = model.stages[-1].approxSimilarityJoin(hashed_clones, hashed_clones, 0.50).filter("distCol > 0")
+
+    clone_pairs.show()
+
+
+
+
+    #
+    #
+    # tokens = RegexTokenizer(pattern=" ", inputCol="source", outputCol="tokens", minTokenLength=1).transform(pysparkdf_transformedClones)
+    # ngrams = NGram(n=5, inputCol="tokens", outputCol="ngrams").transform(tokens)
+    # hashedSource = HashingTF(numFeatures=32,inputCol="ngrams", outputCol="vectors").transform(ngrams)
+    # hashedLSH = MinHashLSH(inputCol="vectors", outputCol="lsh", numHashTables=5).fit(hashedSource)
+    #
+    # hashedLSH.show()
+    #
+    # hashedLSH.toPandas().to_csv(outDir + '/' +'results2.csv')
+    clone_pairs.toPandas().to_csv(outDir + '/' +'results.csv')
 
 
 

@@ -3,9 +3,53 @@ public DrawApplication () {
     this ("JHotDraw");
 }
 </source>
+<source file="/home/ubuntu/Webpage/app_collaborative_sci_workflow/workflow_outputs/test_workflow/JHotDraw54b1/src/CH/ifa/draw/application/DrawApplication.java" startline="96" endline="100">
+public DrawApplication (String title) {
+    super (title);
+    setApplicationName (title);
+    winCount ++;
+}
+</source>
+<source file="/home/ubuntu/Webpage/app_collaborative_sci_workflow/workflow_outputs/test_workflow/JHotDraw54b1/src/CH/ifa/draw/application/DrawApplication.java" startline="96" endline="100">
+public DrawApplication (String title) {
+    super (title);
+    setApplicationName (title);
+    winCount ++;
+}
+</source>
+<source file="/home/ubuntu/Webpage/app_collaborative_sci_workflow/workflow_outputs/test_workflow/JHotDraw54b1/src/CH/ifa/draw/application/DrawApplication.java" startline="96" endline="100">
+public DrawApplication (String title) {
+    super (title);
+    setApplicationName (title);
 
-<source file="/home/ubuntu/Webpage/app_collaborative_sci_workflow/workflow_outputs/test_workflow/JHotDraw54b1/src/CH/ifa/draw/application/DrawApplication.java" startline="89" endline="91">
-public DrawApplication () {
-    this ("JHotDraw");
+}
+</source>
+<source file="/home/ubuntu/Webpage/app_collaborative_sci_workflow/workflow_outputs/test_workflow/JHotDraw54b1/src/CH/ifa/draw/application/DrawApplication.java" startline="108" endline="110">
+protected DrawApplication createApplication () {
+    return new DrawApplication ();
+}
+</source>
+<source file="/home/ubuntu/Webpage/app_collaborative_sci_workflow/workflow_outputs/test_workflow/JHotDraw54b1/src/CH/ifa/draw/application/DrawApplication.java" startline="116" endline="128">
+public void newView () {
+    if (expression) {
+        return;
+    }
+    DrawApplication window = createApplication ();
+    window.open (view ());
+    if (expression) {
+        window.setDrawingTitle (view ().drawing ().getTitle () + " (View)");
+    } else {
+        window.setDrawingTitle (getDefaultDrawingTitle () + " (View)");
+    }
+}
+</source>
+<source file="/home/ubuntu/Webpage/app_collaborative_sci_workflow/workflow_outputs/test_workflow/JHotDraw54b1/src/CH/ifa/draw/application/DrawApplication.java" startline="134" endline="142">
+public void newWindow (Drawing initialDrawing) {
+    DrawApplication window = createApplication ();
+    if (expression) {
+        window.open ();
+    } else {
+        window.open (window.createDrawingView (initialDrawing));
+    }
 }
 </source>
