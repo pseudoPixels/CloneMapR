@@ -15,6 +15,12 @@ from pyspark import SparkConf
 from pyspark.sql import SQLContext
 
 
+
+
+from pyspark.ml import Pipeline
+from pyspark.ml.feature import RegexTokenizer, NGram, HashingTF, MinHashLSH
+
+
 # this method takes path for system potential clone file
 # and writes the converted csv to a supplied destination file path
 def convertAndSaveAsCSV(inputPath, destinationPath, saveToFile=True):
@@ -94,9 +100,16 @@ def main():
 
     transformed_spark_df = spark_df.rdd.map(distributedSourceTransform)
 
-    pysparkdf_transformedClones = transformed_spark_df.toDF()
+    pysparkdf_transformedClones = transformed_spark_df.toDF(['filepath', 'startline', 'endline', 'source'])
 
     pysparkdf_transformedClones.show()
+
+    tokens = RegexTokenizer(pattern=" ", inputCol="source", outputCol="tokens", minTokenLength=1).transform(pysparkdf_transformedClones)
+
+    ngrams = NGram(n=5, inputCol="tokens", outputCol="ngrams").transform(tokens)
+
+    ngrams.show()
+
 
     #pysparkdf_transformedClones.toPandas().to_csv(outDir + '/' +'results.csv')
 

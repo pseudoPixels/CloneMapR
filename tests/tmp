@@ -1,1 +1,1 @@
-<source file="/home/ubuntu/Webpage/app_collaborative_sci_workflow/workflow_outputs/test_workflow/JHotDraw54b1/src/CH/ifa/draw/standard/AbstractFigure.java" startline="371" endline="372">  public void setAttribute (FigureAttributeConstant attributeConstant, Object value) { }  </source>
+<source file="/home/ubuntu/Webpage/app_collaborative_sci_workflow/workflow_outputs/test_workflow/JHotDraw54b1/src/CH/ifa/draw/application/DrawApplication.java" startline="89" endline="91">  public DrawApplication () {     this ("JHotDraw"); }  </source>
