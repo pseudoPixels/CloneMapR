@@ -97,7 +97,9 @@ def main():
 
     pysparkdf_transformedClones = transformed_spark_df.toDF()
 
-    pysparkdf_transformedClones.toPandas().to_csv(outDir + '/' +'results.csv')
+    pysparkdf_transformedClones.show()
+
+    #pysparkdf_transformedClones.toPandas().to_csv(outDir + '/' +'results.csv')
 
 
 
