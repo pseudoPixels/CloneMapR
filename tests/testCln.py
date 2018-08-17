@@ -89,9 +89,18 @@ def main():
 
     start_time = time.time()
 
-    #potential_clones = '../Datasource/pc.xml'
+
+
+
+
+
+    potential_clones = '../Datasource/pc.xml'
     output_csv = 'csvCodes.csv'
-    df = convertAndSaveAsCSV(potential_clones, output_csv, False)
+    df = convertAndSaveAsCSV(potential_clones, output_csv, True)
+
+
+
+
 
     # spark context
     sc = SparkContext.getOrCreate()
@@ -114,7 +123,7 @@ def main():
         ),
         NGram(n=3, inputCol="tokens", outputCol="ngrams"),
         HashingTF(inputCol="ngrams", outputCol="vectors", numFeatures=262144),
-        MinHashLSH(inputCol="vectors", outputCol="lsh", numHashTables=5) #MinHashLSH(inputCol="vectors", outputCol="lsh", numHashTables=5)
+        MinHashLSH(inputCol="vectors", outputCol="lsh", numHashTables=105) #MinHashLSH(inputCol="vectors", outputCol="lsh", numHashTables=5)
     ]).fit(pysparkdf_transformedClones)
 
     hashed_clones = model.transform(pysparkdf_transformedClones)
@@ -126,17 +135,6 @@ def main():
 
 
 
-    #
-    #
-    # tokens = RegexTokenizer(pattern=" ", inputCol="source", outputCol="tokens", minTokenLength=1).transform(pysparkdf_transformedClones)
-    # ngrams = NGram(n=5, inputCol="tokens", outputCol="ngrams").transform(tokens)
-    # hashedSource = HashingTF(numFeatures=32,inputCol="ngrams", outputCol="vectors").transform(ngrams)
-    # hashedLSH = MinHashLSH(inputCol="vectors", outputCol="lsh", numHashTables=5).fit(hashedSource)
-    #
-    # hashedLSH.show()
-    #
-    # hashedLSH.toPandas().to_csv(outDir + '/' +'results2.csv')
-    #clone_pairs.toPandas().to_csv(outDir + '/' +'results2.csv')
 
 
 
