@@ -2,10 +2,410 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ec4411d-b651-47ca-b7a7-9fc719e0f9e1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/._SUCCESS.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00000-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00001-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00002-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00003-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00004-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00005-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00006-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00007-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00008-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00009-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00010-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00011-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00012-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00013-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00014-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00015-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00016-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00017-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00018-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00019-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00020-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00021-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00022-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00023-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00024-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00025-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00026-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00027-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00028-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00029-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00030-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00031-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00032-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00033-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00034-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00035-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00036-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00037-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00038-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00039-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00040-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00041-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00042-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00043-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00044-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00045-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00046-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00047-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00048-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00049-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00050-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00051-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00052-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00053-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00054-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00055-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00056-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00057-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00058-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00059-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00060-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00061-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00062-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00063-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00064-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00065-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00066-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00067-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00068-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00069-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00070-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00071-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00072-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00073-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00074-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00075-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00076-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00077-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00078-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00079-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00080-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00081-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00082-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00083-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00084-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00085-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00086-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00087-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00088-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00089-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00090-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00091-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00092-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00093-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00094-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00095-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00096-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00097-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00098-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00099-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00100-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00101-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00102-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00103-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00104-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00105-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00106-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00107-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00108-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00109-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00110-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00111-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00112-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00113-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00114-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00115-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00116-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00117-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00118-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00119-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00120-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00121-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00122-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00123-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00124-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00125-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00126-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00127-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00128-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00129-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00130-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00131-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00132-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00133-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00134-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00135-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00136-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00137-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00138-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00139-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00140-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00141-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00142-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00143-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00144-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00145-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00146-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00147-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00148-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00149-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00150-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00151-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00152-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00153-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00154-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00155-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00156-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00157-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00158-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00159-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00160-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00161-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00162-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00163-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00164-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00165-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00166-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00167-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00168-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00169-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00170-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00171-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00172-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00173-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00174-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00175-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00176-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00177-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00178-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00179-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00180-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00181-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00182-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00183-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00184-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00185-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00186-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00187-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00188-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00189-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00190-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00191-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00192-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00193-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00194-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00195-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00196-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00197-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00198-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00199-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/_SUCCESS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00000-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00001-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00002-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00003-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00004-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00005-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00006-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00007-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00008-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00009-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00010-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00011-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00012-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00013-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00014-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00015-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00016-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00017-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00018-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00019-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00020-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00021-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00022-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00023-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00024-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00025-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00026-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00027-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00028-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00029-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00030-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00031-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00032-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00033-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00034-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00035-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00036-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00037-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00038-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00039-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00040-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00041-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00042-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00043-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00044-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00045-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00046-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00047-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00048-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00049-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00050-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00051-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00052-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00053-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00054-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00055-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00056-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00057-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00058-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00059-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00060-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00061-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00062-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00063-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00064-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00065-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00066-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00067-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00068-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00069-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00070-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00071-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00072-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00073-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00074-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00075-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00076-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00077-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00078-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00079-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00080-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00081-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00082-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00083-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00084-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00085-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00086-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00087-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00088-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00089-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00090-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00091-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00092-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00093-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00094-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00095-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00096-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00097-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00098-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00099-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00100-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00101-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00102-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00103-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00104-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00105-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00106-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00107-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00108-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00109-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00110-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00111-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00112-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00113-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00114-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00115-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00116-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00117-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00118-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00119-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00120-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00121-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00122-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00123-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00124-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00125-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00126-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00127-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00128-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00129-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00130-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00131-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00132-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00133-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00134-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00135-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00136-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00137-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00138-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00139-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00140-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00141-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00142-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00143-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00144-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00145-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00146-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00147-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00148-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00149-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00150-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00151-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00152-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00153-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00154-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00155-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00156-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00157-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00158-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00159-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00160-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00161-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00162-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00163-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00164-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00165-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00166-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00167-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00168-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00169-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00170-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00171-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00172-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00173-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00174-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00175-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00176-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00177-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00178-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00179-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00180-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00181-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00182-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00183-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00184-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00185-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00186-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00187-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00188-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00189-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00190-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00191-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00192-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00193-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00194-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00195-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00196-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00197-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00198-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasource/detectedClones.csv/part-00199-e1dd1bb1-5087-4f23-844c-1610cd4adacb-c000.snappy.parquet" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasource/pc2.xml" afterPath="$PROJECT_DIR$/Datasource/pc2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/testCln.py" afterPath="$PROJECT_DIR$/tests/testCln.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/tmp" afterPath="$PROJECT_DIR$/tests/tmp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/testCln_CSV.py" afterPath="$PROJECT_DIR$/tests/testCln_CSV.py" />
     </list>
     <ignored path="dcd.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +437,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainDCD.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mainDCD.py">
+      <file leaf-file-name="testCln_CSV.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/testCln_CSV.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -49,14 +449,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testCln_CSV.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/testCln_CSV.py">
+      <file leaf-file-name=".part-00000-cc94e9fe-6b18-4cd4-82f0-3c9d03d5905a-c000.csv.crc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00000-cc94e9fe-6b18-4cd4-82f0-3c9d03d5905a-c000.csv.crc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".part-00158-cc94e9fe-6b18-4cd4-82f0-3c9d03d5905a-c000.csv.crc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00158-cc94e9fe-6b18-4cd4-82f0-3c9d03d5905a-c000.csv.crc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="106" selection-start-line="0" selection-start-column="106" selection-end-line="0" selection-end-column="106" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,16 +488,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
               <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="results2.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Datasource/results2.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -247,6 +645,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Datasource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dcd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dcd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Datasource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="detectedClones.csv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -421,11 +837,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="2495" height="1604" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18406148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14360842" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -435,7 +852,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -730,11 +1146,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/testCln_CSV.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00000-cc94e9fe-6b18-4cd4-82f0-3c9d03d5905a-c000.csv.crc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasource/detectedClones.csv/.part-00158-cc94e9fe-6b18-4cd4-82f0-3c9d03d5905a-c000.csv.crc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="106" selection-start-line="0" selection-start-column="106" selection-end-line="0" selection-end-column="106" />
+          <folding />
         </state>
       </provider>
     </entry>

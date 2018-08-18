@@ -19,6 +19,8 @@ from pyspark.sql import SQLContext
 
 from pyspark.ml import Pipeline
 from pyspark.ml.feature import RegexTokenizer, NGram, HashingTF, MinHashLSH
+from pyspark.sql.functions import col
+
 
 
 # this method takes path for system potential clone file
@@ -126,18 +128,23 @@ def main():
             pattern=" ", inputCol="source", outputCol="tokens", minTokenLength=1
         ),
         NGram(n=3, inputCol="tokens", outputCol="ngrams"),
-        HashingTF(inputCol="ngrams", outputCol="vectors", numFeatures=2),#numFeatures=262144
+        HashingTF(inputCol="ngrams", outputCol="vectors", numFeatures=262144),#numFeatures=262144
         MinHashLSH(inputCol="vectors", outputCol="lsh", numHashTables=5) #MinHashLSH(inputCol="vectors", outputCol="lsh", numHashTables=5)
     ]).fit(pysparkdf_transformedClones)
 
     hashed_clones = model.transform(pysparkdf_transformedClones)
 
-    clone_pairs = model.stages[-1].approxSimilarityJoin(hashed_clones, hashed_clones, 0.70).filter("distCol > 0 AND distCol < 0.5")
+    clone_pairs = model.stages[-1].approxSimilarityJoin(hashed_clones, hashed_clones, 0.70).filter("distCol > 0").select(col('datasetA.filepath').alias('filepath1'), col('datasetA.startline').alias('startline1'), col('datasetA.endline').alias('endline1'),col('datasetB.filepath').alias('filepath2'), col('datasetB.startline').alias('startline2'), col('datasetB.endline').alias('endline2'))
 
-    detectedClones = clone_pairs.select('distCol')
+    clone_pairs.show()
+
+    clone_pairs.write.csv(outDir+'/detectedClones.csv')
+
+
+    #detectedClones = clone_pairs.select('distCol')
 
     #clone_pairs.show()
-    detectedClones.write.save(outDir + '/detectedClones.csv')
+    #detectedClones.write.save(outDir + '/detectedClones.csv')
 
 
 
